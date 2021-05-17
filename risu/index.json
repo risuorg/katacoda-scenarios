@@ -1,20 +1,19 @@
 {
-  "title": "How to use Citellus",
-  "description": "Quick intro to Citellus",
+  "title": "How to use Risu",
+  "description": "Quick intro to Risu",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
-    "steps": [{
-      "title": "Install Citellus in the environment",
-      "text": "step1.md"
-    },
-    {
-    "title": "Use Citellus to detect issues",
-    "text": "step2.md"
-    },
-    {"title": "Solve the issue and revalidate",
-    "text": "step3.md"
-    }
+    "steps": [
+      {
+        "title": "Install Risu in the environment",
+        "text": "step1.md"
+      },
+      {
+        "title": "Use Risu to detect issues",
+        "text": "step2.md"
+      },
+      { "title": "Solve the issue and revalidate", "text": "step3.md" }
     ],
     "intro": {
       "text": "intro.md",

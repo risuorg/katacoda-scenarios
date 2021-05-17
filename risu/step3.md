@@ -8,9 +8,9 @@ Now, we need to enable the service so that it's running:
 
 `service ntp start`{{execute}}
 
-Now, let's re-run citellus:
+Now, let's re-run risu:
 
-`citellus.py -l -i clock`{{execute}}
+`risu.py -l -i clock`{{execute}}
 
 So, the problem has been fixed because ntp is now running on the system.
 

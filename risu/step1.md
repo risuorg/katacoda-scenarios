@@ -1,4 +1,4 @@
-For this demonstration, we'll be using 'pip' to install Citellus
+For this demonstration, we'll be using 'pip' to install Risu
 
 ## Prepare pip on the environment
 
@@ -12,8 +12,8 @@ Now, execute installer
 
 `python3 get-pip.py`{{execute}}
 
-## Install citellus
+## Install risu
 
-Let's install citellus
+Let's install risu
 
-`pip install citellus`{{execute}}
+`pip install risu`{{execute}}
