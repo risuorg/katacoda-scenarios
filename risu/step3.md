@@ -1,18 +1,24 @@
 ## Let's fix the issue
 
-First, we'll be installing ntp:
+First, we'll be installing chrony:
 
-`dnf -y install ntp`{{execute}}
+`yum -y install chrony`{{execute}}
 
 Now, we need to enable the service so that it's running:
 
-`service ntp start`{{execute}}
+`service chronyd start`{{execute}}
 
 Now, let's re-run risu:
 
 `risu.py -l -i clock`{{execute}}
 
-So, the problem has been fixed because ntp is now running on the system.
+So, the problem has been fixed because chronyd is now running on the system.
 
-(in real scenario, `ntpd.conf` should be configured against our organization
-servers, etc, but for demonstration, we'll be stopping here)
+If we run with more detail:
+
+`risu.py -l -i clock -v`{{execute}}
+
+We can see that ntp failed, but chrony succeded and the ntpd unfail plugin altered the reported status as there's already at least one server running.
+
+(in real scenario, `chrony.conf` should be configured against our organization
+servers, etc., but for demonstration, we'll be stopping here)
