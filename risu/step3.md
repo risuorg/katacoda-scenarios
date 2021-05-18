@@ -2,7 +2,7 @@
 
 First, we'll be installing ntp:
 
-`apt-get -y install ntp`{{execute}}
+`dnf -y install ntp`{{execute}}
 
 Now, we need to enable the service so that it's running:
 
