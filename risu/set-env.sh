@@ -1,7 +1,7 @@
 #!/bin/bash
 # Disable showing commands as being typed
 stty -echo
-
+export LC_ALL=en_US.utf8
 export PSBACKUP="$PS1"
 export PS1=""
 clear
