@@ -6,7 +6,7 @@ Enable `pip` on the environment:
 
 First, download package:
 
-`yum -y install python3-pip`{{execute}}
+`apt -y install python3-pip`{{execute}}
 
 ## Install risu
 
