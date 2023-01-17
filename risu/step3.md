@@ -2,7 +2,7 @@
 
 First, we'll be installing chrony:
 
-`yum -y install chrony`{{execute}}
+`apt -y install chrony`{{execute}}
 
 Now, we need to enable the service so that it's running:
 

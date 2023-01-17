@@ -5,7 +5,7 @@ export LC_ALL=en_US.utf8
 export PSBACKUP="$PS1"
 export PS1=""
 clear
-yum -y remove ntp chrony >/dev/null 2>&1
+apt -y remove ntp chrony >/dev/null 2>&1
 clear
 
 echo -e "\nEnvironment is ready, go ahead"
